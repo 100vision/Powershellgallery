@@ -1,0 +1,15 @@
+紧急关机计划之虚拟机批量关机：
+
+#关闭CAT-4虚拟机服务器（非生产环境的服务器）
+PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-4 -Username tixiang_Lin -server xmprvc67
+
+#关闭CAT-3虚拟机服务器（非生产环境的业务服务器）
+PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-3 -Username tixiang_Lin -server xmprvc67
+
+#关闭CAT-2虚拟机服务器(生产环境的企业服务器）
+
+PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-2 -Username tixiang_Lin -server xmprvc67
+
+#关闭CAT-1虚拟机服务器（生产环境的业务最重要的服务器SAP/OA/AD/MES)
+
+PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-1 -Username tixiang_Lin -server xmprvc67
