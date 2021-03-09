@@ -1,15 +1,15 @@
-½ô¼±¹Ø»ú¼Æ»®Ö®ÐéÄâ»úÅúÁ¿¹Ø»ú£º
+ç´§æ€¥å…³æœºè®¡åˆ’ä¹‹è™šæ‹Ÿæœºæ‰¹é‡å…³æœºï¼š
 
-#¹Ø±ÕCAT-4ÐéÄâ»ú·þÎñÆ÷£¨·ÇÉú²ú»·¾³µÄ·þÎñÆ÷£©
-PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-4 -Username tixiang_Lin -server xmprvc67
+#å…³é—­CAT-4è™šæ‹ŸæœºæœåŠ¡å™¨ï¼ˆéžç”Ÿäº§çŽ¯å¢ƒçš„æœåŠ¡å™¨ï¼‰
+PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-4 -Username tixiang_Lin -server myVCenterServerName
 
-#¹Ø±ÕCAT-3ÐéÄâ»ú·þÎñÆ÷£¨·ÇÉú²ú»·¾³µÄÒµÎñ·þÎñÆ÷£©
-PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-3 -Username tixiang_Lin -server xmprvc67
+#å…³é—­CAT-3è™šæ‹ŸæœºæœåŠ¡å™¨ï¼ˆéžç”Ÿäº§çŽ¯å¢ƒçš„ä¸šåŠ¡æœåŠ¡å™¨ï¼‰
+PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-3 -Username tixiang_Lin -server myVCenterServerName
 
-#¹Ø±ÕCAT-2ÐéÄâ»ú·þÎñÆ÷(Éú²ú»·¾³µÄÆóÒµ·þÎñÆ÷£©
+#å…³é—­CAT-2è™šæ‹ŸæœºæœåŠ¡å™¨(ç”Ÿäº§çŽ¯å¢ƒçš„ä¼ä¸šæœåŠ¡å™¨ï¼‰
 
-PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-2 -Username tixiang_Lin -server xmprvc67
+PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-2 -Username tixiang_Lin -server myVCenterServerName
 
-#¹Ø±ÕCAT-1ÐéÄâ»ú·þÎñÆ÷£¨Éú²ú»·¾³µÄÒµÎñ×îÖØÒªµÄ·þÎñÆ÷SAP/OA/AD/MES)
+#å…³é—­CAT-1è™šæ‹ŸæœºæœåŠ¡å™¨ï¼ˆç”Ÿäº§çŽ¯å¢ƒçš„ä¸šåŠ¡æœ€é‡è¦çš„æœåŠ¡å™¨SAP/OA/AD/MES)
 
-PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-1 -Username tixiang_Lin -server xmprvc67
+PS C:\Users\tixiang_lin> Shutdown-VMGuestbyCAT -Category cat-1 -Username tixiang_Lin -server myVCenterServerName
