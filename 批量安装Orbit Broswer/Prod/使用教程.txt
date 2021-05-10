@@ -1,0 +1,36 @@
+1、脚本文件
+Install-OrbitBrowser.ps1 批量安装和升级Orbit Browser (已测试）
+Update-OrbitScreenSaver.ps1  批量更新屏保 （已测试）
+Update-OrbitClientConf.ps1 批量更新配置文件（待测试） 
+
+
+2、日志：
+Update*_ReqCheck.txt 更新条件检查失败日志
+UpdateSCRSuccess.txt 更新成功的客户端列表
+UpdateSCRFailures.txt 更新失败的客户端列表
+
+3、使用准备
+
+3.1 准备好电脑对象列表examples.txt和脚本放在同目录。
+3.2 客户端安装之前：把安装包放到\\file7\mesprep$\MES\客户端安装文件，并重名为setup.exe或覆盖原来的setup.exe
+3.3 更新屏保之前，把新屏保文件OrbitScreenSaver.scr拷贝到\\file7\mesprep$\Updates\ScreenSavers下覆盖同名文件。
+3.4 更新客户端配置文件之前，把新配置文件BrowserPro.exe.config拷贝到\\file7\mesprep$\Updates\ClientConfig下覆盖原同名文件
+
+
+4、使用步骤：
+
+4.1 安装客户端：
+4.1.1 准备好新的安装包setup.exe, 如《使用准备》所述
+4.1.2 以管理员身份本地启动Powershell，
+4.1.3  定位到脚本位置.\Install-OrbitBrowser.ps1 -FilePath examples.txt -Username Administrator
+
+
+4.2 更新屏保：
+4.2.1 准备好新的新屏保文件OrbitScreenSaver.scr
+4.2.2 以管理员身份本地启动Powershell，
+4.2.3  定位到脚本位置.\Update-OrbitScreenSaver.ps1 -FilePath examples.txt -Username Administrator
+
+4.3 更新配置文件：
+4.3.1 准备好新的配置文件BrowserPro.exe.config, 如《使用准备》所述
+4.3.2 以管理员身份本地启动Powershell，
+4.3.3  定位到脚本位置.\Update-OrbitClientConf.ps1 -FilePath examples.txt -Username Administrator
